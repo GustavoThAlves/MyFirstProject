@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primarybackground: #ffffff;
+    --secondarybackground: #32CD32;
+    --primarytext: #32CD32;
+    --secondarytext: #ffffff;
+       
+}
+
+body {
+    background-color: black;
+    font-family:  'Roboto', sans-serif;
+}
+
+#topdisclaimer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    font-size: 1.5rem;
+    background-color: #32CD32;
+}
+
+@media (max-width: 1200px) {
+    #topdisclaimer {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #topdisclaimer {
+        font-size: 1rem;
+    }
+}
+
+#one {
+    padding: 3vh 20vw 3vh 20vw;
+}
+
+@media (max-width: 1200px) {
+    #one {
+        padding: 2vh 2vw 2vh 2vw;
+    }    
+}
+
+@media (max-width: 600px) {
+    #one {
+        padding: 1vh 1vw 1vh 1vw;
+    }    
+}
+
+#headline h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.8;
+    font-size: 2.5rem;
+    color: var(--secondarytext);
+}
+
+#subheadline h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: var(--secondarytext);
+}
+
+#description h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 3;
+    font-size: 1rem;
+    color: var(--secondarytext);
+}
+
+#cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 4;
+    font-size: 1rem;
+}
+
+button {
+    width: 400px;
+    height: 50px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: var(--secondarybackground);
+    color: var(--secondarytext);
+    border-radius: 5px;
+}
+
+#two {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 3vh 20vw 3vh 20vw;
+    color: var(--secondarytext);
+}
+
+@media (max-width: 1200px) {
+    #two {
+        padding: 2vh 2vw 2vh 2vw;
+    }    
+}
+
+@media (max-width: 600px) {
+    #two {
+        padding: 1vh 1vw 1vh 1vw;
+    }    
+}
+
+#downdisclaimer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: var(--secondarytext);
+}
